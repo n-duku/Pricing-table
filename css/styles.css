@@ -1,0 +1,104 @@
+body {
+background: url('../assets/img/background3.jpg');
+background-size: cover;
+font-family: 'Alegreya', serif;
+color: ghostwhite;
+width: 80%;
+margin: 0 auto;
+}
+
+h1{
+  font-family: 'Sigmar One', cursive;
+  margin: auto;
+  width: 50%;
+  text-transform: capitalize;
+  padding: 10px;
+  color: aliceblue;
+  text-decoration-line: overline underline;
+}
+
+h2{
+  font-family: 'Pattaya', sans-serif;
+  margin: auto;
+  padding: 20px 0 0 0;
+  width: 60%;
+  text-transform: capitalize;
+  color: blanchedalmond;
+}
+
+h3 {
+  margin: auto;
+  width: max-content;
+  padding: 20px;
+}
+
+th {
+  color: blanchedalmond;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+th, td{
+  border-collapse: collapse;
+  border-bottom: none;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+tr:nth-child(even){
+  border-radius: 20px;
+  background: gray;
+  text-align: left;
+}
+
+.divbtn{
+    margin-left: 25px;
+    padding-left: 10px;
+}
+
+button{
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Quicksand;
+}
+
+div {
+position: absolute;
+}
+
+img {
+  opacity: 0.8;
+  border-radius: 8px;
+  z-index: 10000000;
+}
+
+.perks {
+  border: 3px solid crimson;
+  border-radius: 50px;
+  text-align: left;
+  background: url('../assets/img/background.jpg');
+  color: black;
+}
+
+button:hover{
+  background-color: darkgray;
+  color: white;
+}
+
+form {
+  margin: auto;
+  margin-top: 80px;
+  width: 30%;
+  padding-left: 120px;
+}
+
+input[type="button"]{
+  margin-left: 50px;
+}
